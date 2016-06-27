@@ -1,0 +1,20 @@
+{
+    "name": "denismitr/easy-curl",
+    "description": "PHP Easy Curl",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Denis Mitrofanov",
+            "email": "denis.mitr@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Denismitr\\EasyCurl\\": "src/"
+        }
+    }
+}
